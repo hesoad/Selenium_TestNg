@@ -18,7 +18,7 @@ public class C03_NegatifLoginTesti {
 
     QdPage qdPage= new QdPage();
 
-    @Test(groups = "smoke")
+    @Test(groups = {"smoke","mr1"})
     public void negatifLogin1(){
         ReusableMethods.bekle(3);
         qdPage= new QdPage();
